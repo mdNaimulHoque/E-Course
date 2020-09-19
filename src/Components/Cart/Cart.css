@@ -1,0 +1,10 @@
+.cart-container {
+    margin-bottom: 10px;
+}
+.cart-container p {
+    font-weight: 700;
+}
+.cart-container h4 {
+    color: palevioletred;
+    font-weight: 700;
+}

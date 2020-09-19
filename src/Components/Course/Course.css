@@ -1,0 +1,11 @@
+.course-container {
+    display: flex;
+}
+.course-cart {
+    width: 50%;
+    margin-left: 20px;
+    border-right: 1px solid lightgrey;
+}
+.course-order {
+    width: 50%;
+}
