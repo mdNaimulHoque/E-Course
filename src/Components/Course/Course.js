@@ -4,6 +4,7 @@ import fakeData from '../../fakeData/fakeData';
 import { Alert } from 'react-bootstrap';
 import './Course.css';
 import Order from '../Order/Order';
+
 const Course = () => {
     const data = fakeData;
     const [courses, setCourses] = useState(data);
@@ -23,7 +24,7 @@ const Course = () => {
             </div>
             <div className="course-order">
                 <Alert variant="success">
-                <h5>Order Summary</h5>
+                    <h5>Order Summary</h5>
                 </Alert>
                 <Order count={counts}></Order>
             </div> 

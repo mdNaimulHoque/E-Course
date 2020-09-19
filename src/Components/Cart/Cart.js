@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Cart.css';
 
 const Cart = (props) => {
-    // console.log(props);
     const { name, price } = props.course;
     return (
         <div className="cart-container">

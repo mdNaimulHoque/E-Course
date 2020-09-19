@@ -1,7 +1,8 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
+
 const Header = () => {
     return (
         <div className="header">
@@ -13,8 +14,8 @@ const Header = () => {
                     <Nav.Link href="#pricing">Pricing</Nav.Link>
                 </Nav>
                 <Form inline>
-                <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                <Button variant="outline-info">Search</Button>
+                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+                    <Button variant="outline-info">Search</Button>
                 </Form>
             </Navbar> 
         </div>
